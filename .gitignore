@@ -1,0 +1,17 @@
+# Node dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js build output
+.next/
+out/
+build/
+
+# Production/development env files
+.env*.local
+
+# IDE/OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
