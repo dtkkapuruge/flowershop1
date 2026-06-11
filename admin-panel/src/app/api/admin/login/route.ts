@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import connectToDatabase from '@/lib/mongodb';
-import AdminUser from '../../../../models/AdminUser';;
+import AdminUser from '@/models/AdminUser';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 
